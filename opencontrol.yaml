@@ -1,0 +1,18 @@
+schema_version: "1.0.0"
+name: Geography API
+metadata:
+  description: "Shared services for Geographic data"
+  maintainers:
+    - james@superbrilliant.io
+components:
+  - ./GeographyAPI
+  - ./GoldImage
+certifications:
+  - ./certifications/lightweight-ato.yaml
+dependencies:
+  systems:
+    - url: https://github.com/opencontrol/aws-compliance
+      revision: master
+  standards:
+    - url: https://github.com/opencontrol/NIST-800-53-Standards
+      revision: master

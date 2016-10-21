@@ -1,0 +1,9 @@
+name: Gold Image
+documentation_complete: false
+schema_version: 3.0.0
+
+satisfies:
+  - control_key: AU-2
+    standard_key: NIST-800-53
+    narrative:
+      - text: The Gold Image configures auditd to log all admin actions and splunk to forward auditd logs for archiving and analysis.

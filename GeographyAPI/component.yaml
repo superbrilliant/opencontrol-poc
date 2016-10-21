@@ -1,0 +1,9 @@
+name: Geography API
+documentation_complete: false
+schema_version: 3.0.0
+
+satisfies:
+  - control_key: CM-2
+    standard_key: NIST-800-53
+    narrative:
+      - text: The configuration for each Geography API environment is stored in yaml files in github.
