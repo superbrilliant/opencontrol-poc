@@ -14,5 +14,5 @@ dependencies:
     - url: https://github.com/opencontrol/aws-compliance
       revision: master
   standards:
-    - url: https://github.com/opencontrol/NIST-800-53-Standards
+    - url: https://github.com/opencontrol/standards
       revision: master
